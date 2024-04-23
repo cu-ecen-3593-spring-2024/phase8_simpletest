@@ -32,7 +32,7 @@ _start:
     nop
 
     // Test 2 -- loading a half word 
-    lh x6, 0(x4)  // x6 should be 0x23
+    lh x6, 0(x4)  // x6 should be 0x123
     nop
     nop
     nop
